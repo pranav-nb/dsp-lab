@@ -1,0 +1,10 @@
+1.Basic operations, generation of basic signals
+2.Sampling theorm
+3.Linear convolution and properties of linear convolution
+4.Impulse response and step response
+5.DFT AND IDFT
+6.Properties of DFT
+7.Circular convolution
+8.Convolution using dft and IDFT
+9.FILTERS
+10.Hardware programs, convolution,DFT,filters

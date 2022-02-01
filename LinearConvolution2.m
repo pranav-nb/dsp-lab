@@ -1,0 +1,13 @@
+clc;
+x=input('Enter 1st sequence: ');
+h=input('Enter 2nd sequence: ');
+s1=input('Enter starting point of 1st sequence: ');
+e1=input('Enter ending point of 1st sequence: ');
+s2=input('Enter starting point of 2nd sequence: ');
+e2=input('Enter ending point of 2nd sequence: ');
+s=s1+s2;
+e=e1+e2;
+y=conv(x,h);
+disp(y);
+t=s:e;
+stem(t,y);
