@@ -1,0 +1,11 @@
+clc;
+N=input('Enter window length: ');
+fc=input('Enter cutoff frequency: ');
+fs=input('Enter sampling frequemcy: ');
+wc=fc/fs;
+w=hamming(N);
+b=fir1(N-1,wc,w);
+freqz(b);
+disp(N);
+disp(w);
+disp(b);
