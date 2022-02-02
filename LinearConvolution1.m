@@ -4,5 +4,5 @@ n=length(x);
 m=length(h);
 y=conv(x,h);
 disp(y);
-t=0:(n+m-1);
+t=0:(n+m-1)-1;
 stem(t,y);
